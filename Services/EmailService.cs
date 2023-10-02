@@ -13,7 +13,7 @@ public class EmailService
         {
             UseDefaultCredentials = true
         }; // or your Exchange version
-        _service.AutodiscoverUrl(Environment.UserName + "@cdsadmin.com", RedirectionUrlValidationCallback);
+        _service.AutodiscoverUrl(Environment.UserName + "@email.com", RedirectionUrlValidationCallback);
     }
 
     private bool RedirectionUrlValidationCallback(string redirectionUrl)
