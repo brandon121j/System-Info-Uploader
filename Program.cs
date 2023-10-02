@@ -34,6 +34,6 @@ internal static class Program
         // Assuming you have an EmailService class with a method SendEmail
         var emailService =
             new EmailService(); // You might need to pass parameters depending on your EmailService constructor
-        emailService.SendEmail("IT-SysInfo@cdsadmin.com", "System Information", systemInfo);
+        emailService.SendEmail("targetEmail@email.com", "System Information", systemInfo);
     }
 }
